@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: SCsdk:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/SCsdk.aar/0f88045f973432a55c6fe61b1bea704c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/SCsdk.aar/0f88045f973432a55c6fe61b1bea704c/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

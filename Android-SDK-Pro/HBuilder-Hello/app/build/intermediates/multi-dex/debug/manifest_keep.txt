@@ -1,0 +1,6 @@
+# Referenced at /Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:178
+-keep class io.dcloud.application.DCloudApplication { <init>(...); }
+
+# Referenced at /Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:624
+-keep class io.dcloud.multiprocess.activity.WebAppActivity1 { <init>(...); }
+
