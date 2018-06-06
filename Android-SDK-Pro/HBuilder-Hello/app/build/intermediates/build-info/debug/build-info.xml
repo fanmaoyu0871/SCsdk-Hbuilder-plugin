@@ -6,7 +6,7 @@
     density="xhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1527784694784"
+    timestamp="1528256780391"
     token="-2001327617053294813"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -23,6 +23,9 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/build/outputs/apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
@@ -56,14 +59,14 @@
     <artifact
         location="/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
-    <artifact
-        location="/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/build/outputs/apk/debug/app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1527784694784"
+        timestamp="1528256780391"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/build/outputs/apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
@@ -97,9 +100,6 @@
         <artifact
             location="/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
