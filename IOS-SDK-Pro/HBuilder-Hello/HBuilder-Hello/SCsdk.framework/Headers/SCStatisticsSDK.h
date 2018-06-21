@@ -14,4 +14,6 @@
 
 +(NSString*)getUUID;
 
++(NSString*)getIDFA;
+
 @end

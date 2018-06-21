@@ -21,4 +21,17 @@
     return [self resultWithString: uuid];
 }
 
+-(NSData*)getIDFA:(PGMethod*)command{
+    
+    NSString *uuid = [SCStatisticsSDK getIDFA];
+    return [self resultWithString: uuid];
+}
+
+-(void)openURL:(PGMethod*)command{
+    NSString* url = [command.arguments objectAtIndex:0];
+    
+    NSURL *cleanURL = [NSURL URLWithString:url];
+    [[UIApplication sharedApplication] openURL:cleanURL];
+}
+
 @end

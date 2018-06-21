@@ -15,4 +15,8 @@
 
 -(NSData*)getUUID:(PGMethod*)command;
 
+-(NSData*)getIDFA:(PGMethod*)command;
+
+-(void)openURL:(PGMethod*)command;
+
 @end

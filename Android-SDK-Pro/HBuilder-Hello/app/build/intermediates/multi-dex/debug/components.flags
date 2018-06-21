@@ -1,0 +1,104 @@
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/messaging.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/alipaySingle-20161222.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/share-qq.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/map-amap.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/xiaomi-oauth.1.6.6.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/oauth-weixin.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/aps.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/MiPush_SDK_Client_3_1_2.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/payment-weixin.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/oauth-sina.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/Msc.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/umeng-analytics-v6.0.1.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/map-baidu.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/tx_weibo_sdk.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/sinaweibo4.1.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/GetuiSDK2.10.3.5.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/oauth-miui.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/tx_wx.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/qq_sdk_v3.1.0.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/AMap_3DMap_V2.4.1.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/geolocation-amap.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/aps-igexin.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/aps-dhPush.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/tx_weibo_sdk_component.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/speech_ifly.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/statistics-umeng.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/share-weixin.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/geolocation-baidu.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/qq_mta-sdk-1.6.2.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/aps-xiaomi.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/speech.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/share-sina.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/payment-alipay.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/tx_weibo_sdk-httpclient-3.0.1.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/share-tencent.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/AMap_Services_V2.4.0.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/oauth-qq.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/alipayutdid.jar'(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/libs/AMap_Location_V3.3.0_20170118.jar'(**.class)
+-injars /Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/lib.5plus.base-release.aar/b566cd7df670b3c8f674bf344169d83a/jars/classes.jar(**.class)
+-injars /Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/SCsdk.aar/204cc4118ef631b68a2d2785f6a0f309/jars/classes.jar(**.class)
+-injars /Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/1517f548e96e800c0b66c1e2bd2bdab4/jars/classes.jar(**.class)
+-injars /Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d215cde7a9f640a1c9372f5b600af529/jars/classes.jar(**.class)
+-injars /Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/68edc92a682f29490f59a50cc3d6ee79/jars/classes.jar(**.class)
+-injars /Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/806778b7f74e9c89a74d3873c086517d/jars/classes.jar(**.class)
+-injars /Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/d4c452f5fb3941c213c57972c05e228b/jars/classes.jar(**.class)
+-injars /Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/06ccaf1c4246dad9d79fd57bdca59d1b/jars/classes.jar(**.class)
+-injars /Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fe9fddc76abfe033b65c393be318f1a4/jars/classes.jar(**.class)
+-injars /Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/ea6544ec774f340d0fd0aa8e681ef825/jars/classes.jar(**.class)
+-injars /Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e8707bad8a4818bdc61302aa7e898a6c/jars/classes.jar(**.class)
+-injars /Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/15478c2deb4c0aa61be1eb88a6084155/jars/classes.jar(**.class)
+-injars /Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2670f9ac6c263f28149142ce6a761507/jars/classes.jar(**.class)
+-injars /Users/fanmaoyu/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar(**.class)
+-injars /Users/fanmaoyu/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar(**.class)
+-injars /Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/7718452deb7de94615df2e23cb84c6eb/jars/classes.jar(**.class)
+-injars /Users/fanmaoyu/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar(**.class)
+-injars /Users/fanmaoyu/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar(**.class)
+-injars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/build/intermediates/classes/debug'(**.class)
+-outjars '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/build/intermediates/multi-dex/debug/componentClasses.jar'
+
+-libraryjars /Users/fanmaoyu/Library/Android/sdk/build-tools/26.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration '/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/build/intermediates/multi-dex/debug/components.flags'
+
+
+# Referenced at /Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:178
+-keep class io.dcloud.application.DCloudApplication {
+    <init>(...);
+}
+
+# Referenced at /Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:624
+-keep class io.dcloud.multiprocess.activity.WebAppActivity1 {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

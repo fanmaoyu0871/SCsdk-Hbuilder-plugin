@@ -4,8 +4,6 @@
 <dict>
 	<key>FMTools</key>
 	<dict>
-		<key>global</key>
-		<false/>
 		<key>class</key>
 		<string>FMTools</string>
 	</dict>

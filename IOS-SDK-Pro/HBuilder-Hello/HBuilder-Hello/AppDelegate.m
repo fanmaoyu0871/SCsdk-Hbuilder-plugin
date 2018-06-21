@@ -13,11 +13,10 @@
 #import "PDRCoreApp.h"
 #import "DCADManager.h"
 #import "PDRCoreAppManager.h"
-#import <AdSupport/AdSupport.h>
-#import <SCsdk/SCsdk.h>
+
 
 // 示例默认带开屏广告，如果不需要广告，可注释下面一行
-#define dcSplashAd
+//#define dcSplashAd
 
 @interface AppDelegate () <DCADManagerDelgate, PDRCoreDelegate>
 @property (strong, nonatomic) ViewController *h5ViewContoller;
@@ -31,16 +30,11 @@
 /*
  * @Summary:程序启动时收到push消息
  */
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    //注册scsdk
-    [SCStatisticsSDK registerSDK];
-
     BOOL ret = [PDRCore initEngineWihtOptions:launchOptions
                                   withRunMode:PDRCoreRunModeNormal withDelegate:self];
-
     
     DCADManager *adManager = [DCADManager adManager];
     UIViewController* adViewController = [adManager getADViewController];
@@ -58,7 +52,7 @@
         [navigationController pushViewController:adViewController animated:NO];
     } else {
         [self startMainApp];
-        self.h5ViewContoller.showLoadingView = YES;
+        self.h5ViewContoller.showLoadingView = NO;
     }
     self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];

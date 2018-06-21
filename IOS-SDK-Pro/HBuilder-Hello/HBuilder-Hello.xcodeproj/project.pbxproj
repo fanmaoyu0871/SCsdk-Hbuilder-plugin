@@ -97,8 +97,8 @@
 		7ACF69AB19FF899A007C64F1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACF69AA19FF899A007C64F1 /* CFNetwork.framework */; };
 		7ACF69AD19FF89B1007C64F1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACF69AC19FF89B1007C64F1 /* Security.framework */; };
 		7AF1410820A57CFC00DA879C /* libWeChatSDK_pay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF1410720A57CFC00DA879C /* libWeChatSDK_pay.a */; };
-		8DCB9E8920BD8CB800331626 /* FMTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB9E8820BD8CB800331626 /* FMTools.m */; };
-		8DCB9E8B20BD8D9400331626 /* SCsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCB9E8A20BD8D9400331626 /* SCsdk.framework */; };
+		8DCBA68D20D24BD000331626 /* SCsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCBA68C20D24BD000331626 /* SCsdk.framework */; };
+		8DCBA69020D24C0000331626 /* FMTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBA68F20D24BFF00331626 /* FMTools.m */; };
 		8E163D021A8D208500308A8B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E163D011A8D208500308A8B /* AssetsLibrary.framework */; };
 		8E2EF7D61A7808F1007C06F4 /* inc in Resources */ = {isa = PBXBuildFile; fileRef = 8E2EF7D51A7808F1007C06F4 /* inc */; };
 		8E34838C1B56838600A40C55 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8E3483891B56838600A40C55 /* AMap.bundle */; };
@@ -261,9 +261,10 @@
 		7ACF69AA19FF899A007C64F1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		7ACF69AC19FF89B1007C64F1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		7AF1410720A57CFC00DA879C /* libWeChatSDK_pay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWeChatSDK_pay.a; path = ../SDK/Libs/libWeChatSDK_pay.a; sourceTree = "<group>"; };
-		8DCB9E8720BD8CB800331626 /* FMTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMTools.h; sourceTree = "<group>"; };
-		8DCB9E8820BD8CB800331626 /* FMTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMTools.m; sourceTree = "<group>"; };
-		8DCB9E8A20BD8D9400331626 /* SCsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SCsdk.framework; sourceTree = "<group>"; };
+		8DCBA68C20D24BD000331626 /* SCsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SCsdk.framework; sourceTree = "<group>"; };
+		8DCBA68E20D24BFF00331626 /* FMTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTools.h; sourceTree = "<group>"; };
+		8DCBA68F20D24BFF00331626 /* FMTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTools.m; sourceTree = "<group>"; };
+		8DCBA69120D266CA00331626 /* HBuilder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = HBuilder.entitlements; path = HBuilder/HBuilder.entitlements; sourceTree = "<group>"; };
 		8E163D011A8D208500308A8B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		8E2EF7D51A7808F1007C06F4 /* inc */ = {isa = PBXFileReference; lastKnownFileType = folder; name = inc; path = ../../SDK/inc; sourceTree = "<group>"; };
 		8E3483891B56838600A40C55 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
@@ -445,7 +446,7 @@
 				8EED65A0198A5789000A4449 /* Accounts.framework in Frameworks */,
 				8EED659E198A5782000A4449 /* Social.framework in Frameworks */,
 				8EED659C198A5773000A4449 /* AddressBookUI.framework in Frameworks */,
-				8DCB9E8B20BD8D9400331626 /* SCsdk.framework in Frameworks */,
+				8DCBA68D20D24BD000331626 /* SCsdk.framework in Frameworks */,
 				8EED6598198A5754000A4449 /* MessageUI.framework in Frameworks */,
 				8EED6594198A5743000A4449 /* AVFoundation.framework in Frameworks */,
 				8EED6592198A5737000A4449 /* AddressBook.framework in Frameworks */,
@@ -465,6 +466,7 @@
 		8EED628F198A1D13000A4449 = {
 			isa = PBXGroup;
 			children = (
+				8DCBA69120D266CA00331626 /* HBuilder.entitlements */,
 				EC1522C0205125D900D7121F /* Images.xcassets */,
 				8EED62A1198A1D13000A4449 /* HBuilder-Hello */,
 				8EED629A198A1D13000A4449 /* Frameworks */,
@@ -600,7 +602,9 @@
 		8EED62A1198A1D13000A4449 /* HBuilder-Hello */ = {
 			isa = PBXGroup;
 			children = (
-				8DCB9E8A20BD8D9400331626 /* SCsdk.framework */,
+				8DCBA68E20D24BFF00331626 /* FMTools.h */,
+				8DCBA68F20D24BFF00331626 /* FMTools.m */,
+				8DCBA68C20D24BD000331626 /* SCsdk.framework */,
 				241BFD231DFBF4C000BA2B1D /* MiPassport.bundle */,
 				8EBB95F21BAD6AB600D250D2 /* AlipaySDK.bundle */,
 				8EBB95F31BAD6AB600D250D2 /* BaiduWalletSDKBundle.bundle */,
@@ -620,8 +624,6 @@
 				8EED658F198A3DF7000A4449 /* Pandora */,
 				8EED62EE198A2166000A4449 /* splash */,
 				8EED62A2198A1D13000A4449 /* Supporting Files */,
-				8DCB9E8720BD8CB800331626 /* FMTools.h */,
-				8DCB9E8820BD8CB800331626 /* FMTools.m */,
 			);
 			path = "HBuilder-Hello";
 			sourceTree = "<group>";
@@ -713,7 +715,16 @@
 				ORGANIZATIONNAME = DCloud;
 				TargetAttributes = {
 					8EED6297198A1D13000A4449 = {
-						DevelopmentTeam = MBAE9LW859;
+						DevelopmentTeam = 23M54PWG8S;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -796,7 +807,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DCB9E8920BD8CB800331626 /* FMTools.m in Sources */,
+				8DCBA69020D24C0000331626 /* FMTools.m in Sources */,
 				8EED62B5198A1D14000A4449 /* ViewController.m in Sources */,
 				8EED62AC198A1D13000A4449 /* AppDelegate.m in Sources */,
 				8EED62A8198A1D13000A4449 /* main.m in Sources */,
@@ -849,6 +860,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -888,7 +900,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -910,10 +923,12 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = MBAE9LW859;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23M54PWG8S;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -937,11 +952,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../SDK/libs";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fanmaoyu.hbuilder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miduoxing.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "armv7 arm64 i386 x86_64";
+				VALID_ARCHS = "arm64 i386 x86_64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -951,10 +967,12 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = MBAE9LW859;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23M54PWG8S;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -978,11 +996,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../SDK/libs";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fanmaoyu.hbuilder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miduoxing.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "armv7 arm64 i386 x86_64";
+				VALID_ARCHS = "arm64 i386 x86_64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

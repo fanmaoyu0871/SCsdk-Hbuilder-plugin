@@ -4,7 +4,7 @@
             "outputFile": "/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
             "map": [
                 {
-                    "source": "/Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/lib.5plus.base-release.aar/ee398fcf5fdc5121593ecc0e1cff8a86/res/values-zh/values-zh.xml",
+                    "source": "/Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/lib.5plus.base-release.aar/b566cd7df670b3c8f674bf344169d83a/res/values-zh/values-zh.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

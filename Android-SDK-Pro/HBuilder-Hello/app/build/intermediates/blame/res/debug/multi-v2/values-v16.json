@@ -4,7 +4,7 @@
             "outputFile": "/Users/fanmaoyu/Desktop/ 外包项目/SC-sdk/Android-SDK-Pro/HBuilder-Hello/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/65cc9a34e6cc131c3c764ec9710c260c/res/values-v16/values-v16.xml",
+                    "source": "/Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2670f9ac6c263f28149142ce6a761507/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0bbee3b988537079b3ef7365a7c4efdd/res/values-v16/values-v16.xml",
+                    "source": "/Users/fanmaoyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d215cde7a9f640a1c9372f5b600af529/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

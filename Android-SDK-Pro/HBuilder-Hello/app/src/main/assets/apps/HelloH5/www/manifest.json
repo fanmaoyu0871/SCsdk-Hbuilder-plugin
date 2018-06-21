@@ -3,7 +3,7 @@
   "name": "HelloH5",
   "version": {
     "name": "2.2.1",
-    "code": "20201"
+    "code": "20202"
   },
   "description": "HTML5 Plus能力演示",
   "icons": {
@@ -144,7 +144,7 @@
       },
     "adid": "12418260101",
     "statusbar": {
-      "immersed": true,
+      "immersed": false,
       "background": "#D74B28"
     },
     "popGesture": "close",
